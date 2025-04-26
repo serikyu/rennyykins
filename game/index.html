@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seal Bubble Shooter</title>
+  <link rel="stylesheet" href="../css/funny.css">
+  <style>
+    body {
+      background-color: #d0f0ff;
+      text-align: center;
+      overflow: hidden;
+      font-family: 'Comic Sans MS', cursive;
+    }
+    #gameArea {
+      position: relative;
+      width: 300px;  /* Smaller width */
+      height: 450px; /* Smaller height */
+      margin: 20px auto;
+      background: linear-gradient(#a7d8f5, #ffffff);
+      border: 5px solid #0077b6;
+      overflow: hidden;
+    }
+    .seal {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 40px;  /* Adjust size of the seal emoji */
+      width: 40px;
+      height: 40px;
+      line-height: 40px; /* Align the emoji in the center */
+    }
+    .bubble {
+      position: absolute;
+      width: 20px; /* Smaller bubbles */
+      height: 20px; /* Smaller bubbles */
+      border-radius: 50%;
+    }
+    #score {
+      font-size: 20px; /* Adjusted font size */
+      color: #006494;
+    }
+    #startButton {
+      margin-top: 20px;
+      padding: 8px 15px;
+      font-size: 18px;  /* Adjusted button size */
+      background-color: #00b4d8;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Seal Bubble Shooter</h1>
+<div id="score">Score: 0</div>
+<button id="startButton">Start Game</button>
+<div id="gameArea">
+  <div id="seal" class="seal">🦭</div> <!-- Seal emoji here -->
+</div>
+
+<script src="js/game.js"></script>
+
+</body>
+</html>
