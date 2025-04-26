@@ -1,0 +1,197 @@
+/* General Reset for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Image Styling */
+img {
+    width: 50%;
+    border-radius: 45px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for scale and shadow */
+}
+
+/* Image Hover Effects */
+img:hover {
+    transform: scale(1.1); /* Slightly grows the image on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+}
+
+/* Homepage Styling */
+.homepage {
+    background-color: pink;
+    padding: 40px;
+    text-align: center;
+}
+
+.homepage p {
+    margin-top: 35px;
+}/* General Reset for all elements */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Homepage Styling */
+.homepage {
+    background-color: pink;
+    padding: 40px;
+    text-align: center;
+}
+
+.homepage p {
+    margin-top: 35px;
+}
+
+/* Button Styles */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px; /* Rounded buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+    transition: transform 0.2s ease-in-out; /* Button grow on hover */
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.1); /* Button grows a bit when hovered */
+}
+
+button:active {
+    transform: scale(1); /* Resets the size when clicked */
+}
+
+/* Input field Styling */
+input[type="text"] {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid #FF66B2; /* Soft pink border */
+    margin: 10px;
+    width: 80%;
+    max-width: 400px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #FF4D94; /* Darker pink when focused */
+    outline: none;
+}
+
+/* Paragraph for the greeting */
+#sealGreeting {
+    font-size: 20px;
+    color: #FF4D94;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Container for centering content */
+.container {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    background-color: pink; /* Lighter background for the main container */
+    align-items: center;
+    text-align: center;
+}
+
+/* Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    background-color: #fff; /* Background color for the whole page */
+}
+
+/* Instagram Link Styling */
+a {
+    color: #FF66B2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Button Styles */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px; /* Rounded buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+    transition: transform 0.2s ease-in-out; /* Button grow on hover */
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.1); /* Button grows a bit when hovered */
+}
+
+button:active {
+    transform: scale(1); /* Resets the size when clicked */
+}
+
+/* Input field Styling */
+input[type="text"] {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: 2px solid #FF66B2; /* Soft pink border */
+    margin: 10px;
+    width: 80%;
+    max-width: 400px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #FF4D94; /* Darker pink when focused */
+    outline: none;
+}
+
+/* Paragraph for the greeting */
+#sealGreeting {
+    font-size: 20px;
+    color: #FF4D94;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Container for centering content */
+.container {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    background-color: pink; /* Lighter background for the main container */
+    align-items: center;
+    text-align: center;
+}
+
+/* Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    background-color: #fff; /* Background color for the whole page */
+}
+
+/* Instagram Link Styling */
+a {
+    color: #FF66B2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
